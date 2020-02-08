@@ -1,0 +1,24 @@
+html,
+body,
+header,
+#intro {
+  height: 100%;
+}
+body {
+  background: url("../img/bg_main.jpg");
+}
+#intro {
+  background: url("../img/bg_header.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.top-nav-collapse {
+  background-color: #24355C;
+}
+@media (min-width: 992px) {
+  .card-body {
+    min-height: 200px;
+  }
+}
